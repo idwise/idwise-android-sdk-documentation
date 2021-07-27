@@ -39,6 +39,7 @@ As follows:
 	    .
 			implementation 'com.idwise:android-sdk:5.0.2'
 		}
+5. Change `minSdkVersion` to 19 or higher
     
 ## Step 2: Calling IDWise to Start a Journey:
 Make a call to **startJourney** method on **IDWise** object from **com.idwise.sdk** package.
