@@ -44,6 +44,9 @@ As follows:
 ## Step 2: Calling IDWise to Start a Journey:
 Make a call to **startJourney** method on **IDWise** object from **com.idwise.sdk** package.
 
+You can find an example of the code here:
+https://github.com/idwise/android-sdk-documentation/blob/8091facaa84fd59ede6d5972fe590ba013274346/example-activity.kt
+
 This method takes two parameters and two call backs:
 
 * **businessId**: This is a unique identifier that identifies your journey definition. IDWise shares this with you when you register for using IDWise system
