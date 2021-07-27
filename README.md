@@ -63,4 +63,6 @@ The advantage here is that you do not need to publish a new version of your app 
 ## Step 2: Customising Look and Feel:
 You can just edit the values in "\res\values\themes.xml" and "\res\values-night\themes.xml" (file example of possible values is attached)
 
+## Keep in touch!
 Please get in touch if you want to make any adjustments or customisations to your users journey.
+Please feel free to jump on a chat by visiting our website: www.idwise.com
