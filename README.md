@@ -59,12 +59,13 @@ And that is all you need to get up and running with IDWise as part of your mobil
 This invocation can happen at any point in your application when you want to take the user through a registration or on-boarding journey.
 From this point onwards, IDWise SDK will guide the user through providing their documents and/or biometrics depending on the configuration of your journey in IDWise backend system.
 
-The presentation you see on IDWise journey including the text prompts and images are all customisable by IDWise from the cloud.
+## Step 3: Customising Prompts & Look and Feel:
+
+The presentation you see on IDWise journey including the text prompts and images are all customisable by IDWise from the cloud, please reach out to the IDWise support team for any such customisations. 
 
 The advantage here is that you do not need to publish a new version of your app to the store or get your users to update to apply any adjustments you need on the journey steps or user communication.
 
-## Step 3: Customising Look and Feel:
-You can just edit the values in "/res/values/themes.xml" and "/res/values-night/themes.xml" (file example of possible values is attached)
+You can just edit the values of colours for both light and dark modes in "/res/values/themes.xml" and "/res/values-night/themes.xml" (file example of possible values is attached)
 
 ## Keep in touch!
 Please get in touch if you want to make any adjustments or customisations to your users journey.
