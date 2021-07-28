@@ -59,7 +59,7 @@ And that is all you need to get up and running with IDWise as part of your mobil
 This invocation can happen at any point in your application when you want to take the user through a registration or on-boarding journey.
 From this point onwards, IDWise SDK will guide the user through providing their documents and/or biometrics depending on the configuration of your journey in IDWise backend system.
 
-## Step 3: Customising Prompts & Look and Feel:
+## Step 3: Customising User Prompts & Look and Feel:
 
 The presentation you see on IDWise journey including the text prompts and images are all customisable by IDWise from the cloud, please reach out to the IDWise support team for any such customisations. 
 
