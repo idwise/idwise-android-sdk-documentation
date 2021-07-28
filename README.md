@@ -49,7 +49,7 @@ https://github.com/idwise/android-sdk-documentation/blob/8091facaa84fd59ede6d597
 
 This method takes two parameters and two call backs:
 
-* **businessId**: This is a unique identifier that identifies your journey definition. IDWise shares this with you when you register for using IDWise system
+* **businessId** (also called Journey Definition ID): This is a unique identifier that identifies your journey definition. IDWise shares this with you when you register for using IDWise system
 * **userId**: (Optional) A parameter that you can use to associate an arbitrary identifier (reference number) with the user making the current journey. This is helpful to link back the user or application related to the journey with the data in IDWise system   
 * **completionCallback**: This callback has one parameter (journeyId), and called when the journey has been completed,
 * **cancelCallback**: This callback has one parameter (journeyId) and is called when the customer cancels the journey (clicks back and confirms cancellation).
