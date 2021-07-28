@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         IDWise.startJourney(this,
-            "Journey Definition ID",
+            "Journey Definition ID",//provided by IDWise
             "Reference Number",
             { journeyId, submitted ->
                 // Journey completed callback.
