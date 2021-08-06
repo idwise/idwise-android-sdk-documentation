@@ -75,7 +75,7 @@ You need to update your build as follow:
 		}
 	}
 
-And add the following file to your app `proguard.pro`.
+And add the following file to your app [`proguard.pro`](proguard.pro).
 
 Please reach out to our IDWise support team for details on how to customise the UI for the ID verification journey.
 
