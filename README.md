@@ -60,6 +60,23 @@ It almost works like magic!
 
 Please see the files in [`res/values`](res/values) folder for an example of what the colour customisations look like, you can edit the following files `/res/values/themes.xml` and `/res/values-night/themes.xml`
 
+## Note: If you use Proguard for obfuscation or shrinking:
+You need to update your build as follow:
+
+	// generate release apk
+	buildTypes {
+		release {
+			signingConfig signingConfigs.release
+
+				proguardFile '../proguard.pro'
+			minifyEnabled true
+			//enableR8 code Shrinking & Obfuscation
+			shrinkResources true
+		}
+	}
+
+And add the following file to your app `proguard.pro`.
+
 Please reach out to our IDWise support team for details on how to customise the UI for the ID verification journey.
 
 ## Keep in touch!
