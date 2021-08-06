@@ -1,9 +1,5 @@
 
 
-#Fro fuel http
-#-keep class com.github.kittinunf.fuel.android.util.AndroidEnvironment
-
-
 ##---------------Begin: proguard configuration for Gson  ----------
 # Gson uses generic type information stored in a class file when working with fields. Proguard
 # removes such information by default, so configure it to keep all of it.
