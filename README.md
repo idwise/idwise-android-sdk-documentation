@@ -2,7 +2,7 @@
 This SDK allows you to integrate the IDWise Digital Identity Verification technology inside your app with minimal fuss. Whenever your app wants to verify a user, it simply calls a single function in our SDK (`startJourney`) which will start an ID verification journey for that user. This will present a highly customisable UI that guides the user through a series of steps that prompts them for their ID documents and/or biometrics depending on how you have configured your journey flow in IDWise backend systems. At the end of this process your app will receive a `journeyId` (via callback functions) which your backend code can use to securely get the result of this verification process. It's that simple!
 
 Our latest stable SDK version is:
-2.0.1
+2.0.7
 
 ## Step 1: Integrating with your build scripts
 - In your `build.gradle` file, add `multiDexEnabled true` and `dataBinding true` in these sections:
@@ -60,8 +60,6 @@ The text prompts, images, and colours for both the light and dark modes within a
 * Your users do not need to do anything in order to pickup any customisations that you apply,
 
 It almost works like magic!
-
-Please see the files in [`res/values`](res/values) folder for an example of what the colour customisations look like, you can edit the following files `/res/values/themes.xml` and `/res/values-night/themes.xml`
 
 ## Note: If you use Proguard for obfuscation or shrinking:
 You need to update your build as follow:
