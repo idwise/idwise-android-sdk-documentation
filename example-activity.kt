@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             { journeyId ->
                 // Journey cancelled callback.
             },
-            "ar"
+            "ar" // Locale (language) for UI, we are passing "ar" for Arabic in this example.
         )
 
     }
