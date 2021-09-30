@@ -45,10 +45,11 @@ You can find an example of how to start an ID verification process in the file [
 
 Your app can start an ID verification process by making a call to the `startJourney` method which takes the following parameters:
 
-* **businessId** (also called Journey Definition ID): This is a unique identifier that identifies your journey definition. IDWise shares this with you when you register for using IDWise system
-* **userId**: (Optional) A parameter that you can use to associate an arbitrary identifier (reference number) with the user making the current journey. This is helpful to link the journey back to the user and/or application that started the journey
-* **completionCallback**: This callback has one parameter (journeyId), and is called when the journey has been completed
-* **cancelCallback**: This callback has one parameter (journeyId) and is called when the customer cancels the journey (clicks back and confirms cancellation)
+* **journeyTemplateId** (also called Journey Definition ID): This is a unique identifier that identifies your journey definition. IDWise shares this with you when you register for using IDWise system.
+* **referenceNo**: (Optional) A parameter that you can use to associate an arbitrary identifier (reference number) with the user making the current journey. This is helpful to link the journey back to the user and/or application that started the journey, you will recieve this in the webhook request.
+* **completionCallback**: This callback has one parameter (journeyId), and is called when the journey has been completed.
+* **cancelCallback**: This callback has one parameter (journeyId) and is called when the customer cancels the journey (clicks back and confirms cancellation).
+* **locale**: (Optional), iso code of locale (language) for the UI elements (please contact IDWise support for the list of supported locales, we are happy to support more upon reqiest).
 
 The `journeyId` can then be used by your backend code to securely get the result of the ID verification.
 
