@@ -17,7 +17,8 @@ class MainActivity : AppCompatActivity() {
             },
             { journeyId ->
                 // Journey cancelled callback.
-            }
+            },
+            "ar"
         )
 
     }
