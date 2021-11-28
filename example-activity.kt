@@ -10,17 +10,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         IDWise.startJourney(this,
-            "Journey Definition ID",//provided by IDWise
-            "Reference Number",
+            "Journey Template ID",//provided by IDWise
+            "Customer Specific Reference Number",
             { journeyId, submitted ->
                 // Journey completed callback.
             },
             { journeyId ->
                 // Journey cancelled callback.
             },
-            "ar" // Locale (language) for UI, we are passing "ar" for Arabic in this example.
+            { journeyInfo ->
+                // Journey started callback (You can get journey id from journeyInfo?.journeyId
+            },
+            "en" // Locale (language) for UI, we are passing "ar" for Arabic in this example, for supported languages, please contact IDWise.
+                 // Adding more languages (if not supported out of the box) is very simple.
         )
-
     }
 
 }
