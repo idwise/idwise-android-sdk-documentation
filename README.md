@@ -82,6 +82,11 @@ And add the following file to your app [`proguard.pro`](proguard.pro), in case t
 
 Please reach out to our IDWise support team for details on how to customise the UI for the ID verification journey.
 
+## Onboarding Journey Scenarios:
+Please [`click here`](onboarding-journey-scenarios.md) for detailed explanation of common onboarding journey scanerios and how to deal with each of these scenarios.
+
+
+
 ## Keep in touch!
 Please get in touch if you want to make any adjustments or customisations to your users journey.
 Please feel free to jump on a chat by visiting our website: www.idwise.com
