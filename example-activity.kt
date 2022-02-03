@@ -28,18 +28,18 @@ class MainActivity : AppCompatActivity() {
 			"en",
 			object : IDWiseSDKCallback {
                 
-                /** 
-                * This event triggers when the Journey is started by
-                * the user, by clicking on the Start Journey Button
-                */
+			/** 
+			* This event triggers when the Journey is started by
+			* the user, by clicking on the Start Journey Button
+			*/
 			    override fun onJourneyStarted(journeyInfo: JourneyInfo) {
 				    Log.d("IDWiseSDKCallback", "onJourneyStarted")
 			    }
 
-                /** 
-                * This event triggers when the Journey is completed by
-                * the user.
-                */
+			/** 
+			* This event triggers when the Journey is completed by
+			* the user.
+			*/
                 
 			    override fun onJourneyCompleted(
 				    journeyInfo: JourneyInfo,
@@ -48,19 +48,19 @@ class MainActivity : AppCompatActivity() {
 				    Log.d("IDWiseSDKCallback", "onJourneyCompleted")
 			    }
 
-                 /** 
-                * This event triggers when the Journey is cancelled by
-                * the user at any stage
-                */
+			 /** 
+			* This event triggers when the Journey is cancelled by
+			* the user at any stage
+			*/
 			    override fun onJourneyCancelled(journeyInfo: JourneyInfo?) {
 				    Log.d("IDWiseSDKCallback", "onJourneyCancelled")
 			    }
 
                 
-                 /** 
-                * This event triggers when an Error occured during the 
-                * verification process
-                */
+			 /** 
+			* This event triggers when an Error occured during the 
+			* verification process
+			*/
 			    override fun onError(error: IDWiseSDKError) {
 				    Log.d("IDWiseSDKCallback", "onError ${error.message}")
 			    }
